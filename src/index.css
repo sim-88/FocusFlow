@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* background: rgb(72, 14, 111);
+    background: radial-gradient(circle, rgba(72, 14, 111, 1) 46%, rgba(106, 13, 171, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-image: url('/backgroundimg.png');
+}
