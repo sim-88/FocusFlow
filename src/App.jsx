@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
-// const {v4:uuidv4} = require('uuid');
+import Footer from './components/Footer'
 import { v4 as uuidv4 } from 'uuid';
 import { FaEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
@@ -127,6 +127,7 @@ function App() {
 
 
       </div>
+      <Footer />
     </>
   )
 }
